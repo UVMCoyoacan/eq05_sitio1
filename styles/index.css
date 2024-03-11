@@ -46,6 +46,12 @@ nav ul li a {
 
 .main-content {
     overflow: hidden; /* Limpiar float */
+    text-align: justify;
+}
+
+#descripcion{
+    max-width: 850px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .main-content h2 {
@@ -58,11 +64,11 @@ nav ul li a {
 }
 
 .main-content img {
-    float: right; /* Hacer que la imagen flote a la derecha */
+    float: right; 
     width: 300px;
     height: 300px;
-    border: 5px solid black; /* Añadir un borde negro */
-    border-radius: 10px; /* Añadir esquinas redondeadas al borde */
+    border: 5px solid black; 
+    border-radius: 10px; 
 }
 
 .sidebar {
@@ -75,7 +81,7 @@ nav ul li a {
 }
 
 .clientes {
-    overflow: hidden; /* Limpiar float */
+    overflow: hidden; 
 }
 
 .cliente {
@@ -95,6 +101,31 @@ nav ul li a {
     text-align: center; /* Centrar el texto del cliente */
 }
 
+.cuadrotres{
+    background-color: #eee; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 500px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    overflow: hidden; /* Limpiar float */
+}
+
+.resena{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.c{
+     background-color: #eee; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 10px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
 .footer-info {
     display: flex;
     justify-content: space-between;
@@ -109,5 +140,5 @@ nav ul li a {
 }
 
 .imagenizquierda {
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-right: 10px; 
 }
