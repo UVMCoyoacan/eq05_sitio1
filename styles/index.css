@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url('../img/background.png');
 }
 
 .container {
@@ -18,7 +19,7 @@ header, footer {
     color: white;
 }
 nav {
-    background-color: #ddd;
+    background-color: #b8b6b6;
     padding: 5px 0;
     text-align: center;
 }
@@ -36,7 +37,7 @@ nav ul li a {
 }
 
 .main-content, .sidebar {
-    background-color: #eee; /* Color de fondo */
+    background-color: #b8b6b6; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     margin-bottom: 20px; /* Margen inferior */
     border-radius: 10px; /* Bordes redondeados */
@@ -71,7 +72,7 @@ nav ul li a {
 }
 
 .sidebar {
-    background-color: #ddd;
+    background-color: #b8b6b6;
 }
 
 .main-content img, .sidebar img {
@@ -101,7 +102,7 @@ nav ul li a {
 }
 
 .cuadrotres{
-    background-color: #eee; /* Color de fondo */
+    background-color: #b8b6b6; /* Color de fondo */
     padding: 20px; /* Espaciado interno */
     margin-bottom: 20px; /* Margen inferior */
     border-radius: 10px; /* Bordes redondeados */
@@ -116,7 +117,7 @@ nav ul li a {
 }
 
 .c{
-     background-color: #eee; 
+     background-color: #b8b6b6; 
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 10px; 
