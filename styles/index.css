@@ -155,3 +155,23 @@ nav ul li a {
 .imagenizquierda {
     margin-right: 10px; 
 }
+
+.content {
+    color: #000000;
+}
+
+.c-footer {
+    color: #ffffff;
+}
+
+.content, .c-footer {
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    }
+
+.content:hover, .c-footer:hover {
+    color: #F7C64E;
+}
