@@ -108,7 +108,7 @@ nav ul li a {
     padding: 20px; /* Espaciado interno */
     margin-bottom: 20px; /* Margen inferior */
     border-radius: 10px; /* Bordes redondeados */
-    max-width: 500px; /* Tamaño máximo del contenedor */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
     margin: 0 auto; /* Centrar el contenedor horizontalmente */
     overflow: hidden; /* Limpiar float */
 }
@@ -120,17 +120,27 @@ nav ul li a {
 }
 
 .c{
-     background-color: #b8b6b6ec; 
+    background-color: #b8b6b6ec; 
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 10px; 
-    max-width: 500px; 
+    max-width: 1200px; 
     margin: 0 auto; 
     overflow: hidden; 
 }
 
 .banners{
+    float: left;
+    width: 50%; /* Divide el ancho en dos */
     text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banners_1{
+    float: right;
+    text-align: center;
+    width: 50%; /* Divide el ancho en dos */
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
