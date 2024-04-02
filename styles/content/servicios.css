@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../../img/background.png');
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #070707de;
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #b8b6b6ec;
+    padding: 5px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.servicios{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.general{
+    background-color: #b8b6b6ec; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.teoria{
+    overflow: hidden; /* Limpiar float */
+    text-align: justify;
+}
+
+.teoria h2{
+    clear: both; /* Limpiar float */
+}
+
+#camaras{
+    float: left; /* Hacer que el texto flote a la izquierda */
+    width: calc(100% - 320px); /* Ajustar el ancho para dejar espacio a la imagen */
+}
+
+.teoria img{
+    float: right; 
+    width: 300px;
+    height: 300px;
+    border-radius: 10px; 
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info div {
+    flex-basis: 30%;
+}
+
+.container {
+    display: flex; /* Establece el contenedor como flexbox */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+}
+
+.imagenizquierda {
+    margin-right: 10px; 
+}
+
+.content {
+    color: #000000;
+}
+
+.c-footer {
+    color: #ffffff;
+}
+
+.content, .c-footer {
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    -ms-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+    }
+
+.content:hover, .c-footer:hover {
+    color: #F7C64E;
+}
