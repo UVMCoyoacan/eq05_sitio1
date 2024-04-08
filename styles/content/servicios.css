@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('../../img/background.png');
+    background-image: url('../../img/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -41,9 +43,12 @@ nav ul li a {
 }
 
 .servicios{
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     font-weight: bold;
+    font-size: 35px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .general{
@@ -65,16 +70,37 @@ nav ul li a {
 }
 
 #camaras{
-    float: left; /* Hacer que el texto flote a la izquierda */
-    width: calc(100% - 320px); /* Ajustar el ancho para dejar espacio a la imagen */
+    float: left; 
+    width: calc(100% - 320px); 
+    font-size: large; 
 }
 
 .teoria img{
     float: right; 
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px; 
 }
+
+.catalogo{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.solicitudes{
+    background-color: #b8b6b6ec; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+
 
 .footer-info {
     display: flex;
