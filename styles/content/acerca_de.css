@@ -1,0 +1,33 @@
+.filosofia{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.slots{
+    background-color: #b8b6b6ec; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    display: flex;
+    justify-content: space-around;
+}
+
+.fil{
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 30%; 
+    margin: 0 10px;
+    text-align: center;
+}
+
+#mision, #vision, .valores{
+    text-align: justify;
+}
+
