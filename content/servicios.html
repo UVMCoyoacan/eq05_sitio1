@@ -94,6 +94,34 @@
         </div>
     </div>
 <br>
+    <h1 id="solicitud">Contacto</h1>
+<br>
+    <form class="solicitud-servicio">
+        <h2>Solicitud de Servicio</h2>
+        
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Pedro Hernandez" required="">
+        </div>
+        
+        <div class="form-group">
+            <label for="numero">Número de teléfono:</label>
+            <input type="tel" id="numero" name="numero" pattern="[0-9]{10}" placeholder="Ej. 1234567890" required="">
+        </div>
+        
+        <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Example@hotmail.com" required="">
+        </div>
+        
+        <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej. Solicito presupuesto de la instalacion de camaras de seguridad" required=""></textarea>
+        </div>
+        
+        <input type="submit" value="Enviar">
+    </form>
+<br>
     <footer>
         <div class="container">
             <div class="footer-info">

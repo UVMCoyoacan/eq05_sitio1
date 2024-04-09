@@ -61,12 +61,12 @@ nav ul li a {
 }
 
 .teoria{
-    overflow: hidden; /* Limpiar float */
+    overflow: hidden; 
     text-align: justify;
 }
 
 .teoria h2{
-    clear: both; /* Limpiar float */
+    clear: both; 
 }
 
 #camaras{
@@ -103,7 +103,7 @@ nav ul li a {
 
 .guardias {
     float: left;
-    width: 50%; /* Divide el ancho en dos */
+    width: 50%; 
 }
 
 .solicitudes h3, h1{
@@ -126,7 +126,66 @@ nav ul li a {
 
 .seguridad {
     float: right;
-    width: 50%; /* Divide el ancho en dos */
+    width: 50%; 
+}
+
+#solicitud{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.solicitud-servicio {
+    background-color: #b8b6b6ec; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.solicitud-servicio h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.form-group textarea {
+    resize: vertical; 
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
 .footer-info {
