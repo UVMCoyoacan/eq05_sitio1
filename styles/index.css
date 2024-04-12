@@ -10,8 +10,16 @@ body {
 }
 
 .container {
-    width: 88%;
+    width: 80%;
     margin: 0 auto;
+}
+
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 header, footer {
@@ -20,23 +28,51 @@ header, footer {
     text-align: center;
     color: white;
 }
+
 nav {
     background-color: #b8b6b6ec;
     padding: 5px 0;
     text-align: center;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #333;
 }
+
+.carrito-li {
+    float: right; 
+    margin-right: 20px; 
+}
+
+.carrito {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    padding-right: 20px; /* Agrega un poco de espacio al final de la página */
+}
+
+.carrito button{
+    border: 2px solid #ffec00; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-size: medium; 
+    font-weight: bold; 
+    background-color: transparent; 
+    color: #ffec00; 
+    cursor: pointer; 
+}
+
 
 .main-content, .sidebar {
     background-color: #b8b6b6ec; /* Color de fondo */
