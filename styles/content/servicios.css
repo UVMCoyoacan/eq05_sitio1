@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
@@ -113,11 +120,11 @@ nav ul li a {
     border-radius: 10px; 
 }
 
-.catalogo{
+.catalogo h1{
     color: #FFFFFF;
     text-align: center;
     font-weight: bold;
-    font-size: 27px; 
+    font-size: 50px; 
     font-weight: bold; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
@@ -262,4 +269,66 @@ nav ul li a {
 
 .content:hover, .c-footer:hover {
     color: #F7C64E;
+}
+
+.swiper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.swiper-slide {
+    margin-bottom: 150px;
+    background-color: #b8b6b6ec;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 400px;
+    border-radius: 15px;
+    height: 420px;
+}
+
+.swiper-text {
+    position: absolute;
+    background-color: #b8b6b6ec;
+    padding: 10px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.swiper-text h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #F7C64E;
+}
+
+.desktop {
+    text-align: center;
+    z-index: 1;
+}
+
+.desktop img {
+    width: 800px;
+}
+
+@media(max-width:991px) {
+    .swiper {
+        padding: 10 70px;
+    }
+
+    .swiper-slide img {
+        width: 100%;
+    }
+
+    .desktop {
+        padding: 30px;
+    }
+
+    .desktop img {
+        width: 100%;
+    }
 }
