@@ -296,8 +296,9 @@ nav ul li a {
     position: absolute;
     background-color: #b8b6b6ec;
     padding: 10px;
-    height: 120px;
     border-radius: 10px;
+    max-height: 120px; 
+    overflow: auto; 
 }
 
 .swiper-text h3 {
@@ -331,4 +332,10 @@ nav ul li a {
     .desktop img {
         width: 100%;
     }
+}
+
+#precio{
+    font-size: large;
+    color: black;
+    font-weight: bold;
 }

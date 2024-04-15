@@ -1,0 +1,19 @@
+.historia{
+    background-color: #b8b6b6ec; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 1200px; /* Tamaño máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    text-align: justify;
+}
+
+#serv{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    display: block; 
+    margin: auto;
+    max-width: 100%; 
+    max-height: 100%;
+}
